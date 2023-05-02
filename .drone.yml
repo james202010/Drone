@@ -9,5 +9,3 @@ steps:
   - echo hello
   - echo world
 
-  kind: pipeline
-type: docker

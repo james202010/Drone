@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: test
-  image: mcr.microsoft.com/dotnet/sdk:6.0
+  image: python
   commands:
-  - dotnet build
-  - dotnet test
+  - pip install -r requirements.txt
+  - pytest

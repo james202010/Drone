@@ -8,7 +8,7 @@ steps:
   commands:
   - echo hello world
 
-- name: fr
+- name: de
   image: alpine
 commands:
-  - echo bonjour monde
+  - echo guten tag

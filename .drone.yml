@@ -8,3 +8,8 @@ steps:
   commands:
   - echo hello
   - echo world
+
+  - name: fr
+  image: alpine
+  commands:
+  - echo bonjour monde

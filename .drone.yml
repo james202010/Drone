@@ -9,6 +9,10 @@ steps:
   - echo hello
   - echo world
 
+  kind: pipeline
+type: docker
+name: fr
+
   - name: fr
   image: alpine
   commands:

@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: test
+- name: test2
   image: mysql
   commands:
   - sleep 15
@@ -13,4 +13,4 @@ services:
   image: mysql
   environment:
     MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
-    MYSQL_DATABASE: test
+    MYSQL_DATABASE: test2

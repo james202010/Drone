@@ -1,10 +1,10 @@
-name: drone-test
 kind: pipeline
 type: docker
 name: default
 
 steps:
-- name: test
+- name: greeting
   image: alpine
   commands:
-  - echo "It worked!"
+  - echo hello
+  - echo world

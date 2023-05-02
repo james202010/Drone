@@ -1,9 +1,10 @@
 kind: pipeline
+type: kubernetes
 name: default
 
 steps:
 - name: test
-  image: python
+  image: swift:4
   commands:
-  - pip install -r requirements.txt
-  - pytest
+  - swift build
+  - swift test

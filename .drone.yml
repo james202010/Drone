@@ -11,9 +11,3 @@ steps:
 
   kind: pipeline
 type: docker
-
-
-  - name: fr
-  image: alpine
-  commands:
-  - echo bonjour monde

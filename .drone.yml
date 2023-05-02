@@ -12,4 +12,3 @@ steps:
   image: alpine
 commands:
   - echo guten tag
---
